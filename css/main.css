@@ -132,6 +132,9 @@ body {
     color: #2b2b2b;
     margin-left: 11px;
 }
+.telephone:hover {
+    text-decoration: underline;
+}
 .telephone:focus {
     outline: none;
 }
@@ -171,6 +174,12 @@ body {
 .header-logo {
     flex: 0 0 83px;
     overflow: hidden;
+}
+.logo-link {
+    text-decoration: none;
+}
+.logo-link:focus {
+    outline: none;
 }
 .header-logo img {
     max-width: 100%;
@@ -219,7 +228,6 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 130px;
-
 }
 .intro-inner {
     width: 100%;
@@ -1180,6 +1188,18 @@ body {
 .form-input {
     margin-bottom: 12px; 
 }
+.form-input:focus::-webkit-input-placeholder {
+    color: transparent
+  }
+.form-input:focus::-moz-placeholder {
+    color: transparent
+  }
+.form-input:focus:-moz-placeholder {
+    color: transparent
+  }
+.form-input:focus:-ms-input-placeholder {
+    color: transparent
+  }
 .form-textarea {
     resize: none;
     overflow: auto;
