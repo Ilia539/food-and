@@ -81,7 +81,7 @@ $(document).ready(function() { $("html").niceScroll({scrollspeed:400,hwaccelerat
     cursorborder: "1px solid #fff",
     cursorborderradius: "5px",
     scrollspeed: 60,
-    mousescrollstep: 24,
+    mousescrollstep: 35,
     touchbehavior: false,   // deprecated
     emulatetouch: false,    // replacing touchbehavior
     hwacceleration: true,

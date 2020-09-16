@@ -199,6 +199,8 @@ body {
     color: #ffffff;
     padding: 15px 25px;
     transition: .3s ease-out;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 .nav-link:focus {
     outline: none;
