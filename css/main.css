@@ -1634,6 +1634,9 @@ body {
         padding-top: 118px;
     }
     /* ......................MENU BURGER........ */
+    body.lock {
+        overflow: hidden;
+        }
     
     .header__burger {
         display: block;

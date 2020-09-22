@@ -18,5 +18,22 @@ $(document).ready(function() {
 
     });
 });
+  // .......SCROLL EASY...
+  $(document).ready(function() {
+    $('.nav-link').click(function() {
+      $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top + 'px'
+      }, {
+        duration: 2500,
+        easing: 'swing'
+      });
+      return false;
+      });
+    });
+
+    $(document).ready(function() {
+  $('.overlay-link').magnificPopup({type:'image'});
+  
+});
 
 
