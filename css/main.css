@@ -213,33 +213,32 @@ body {
 }
 /* ........INTRO.......................... */
 .intro {
-    /* display: none; */
-    min-height: 100vh;
-    width: 100%;
-    background-image: url('../img/header/back_header3.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    min-height:100vh;
+    width:100%;
+    background-image:url(../img/header/back_header3.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment:fixed;
 }
 .intro__wrap {
-    width: 100%;
-    min-height: 100vh;
-    background: rgba(0,0,0,0.38);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 130px;
-}
+    width:100%;
+    min-height:100vh;
+    background:rgba(0,0,0,0.38);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:130px;
+    }
 .intro-inner {
-    width: 100%;
-    flex: 1 1 auto;
-    max-width: 865px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    width:100%;
+    flex:1 1 auto;
+    max-width:865px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    margin:0 auto;
 }
 .intro-title {
     text-shadow: -2px 3px 7px #000000;
@@ -1634,9 +1633,9 @@ body {
         padding-top: 118px;
     }
     /* ......................MENU BURGER........ */
-    body.lock {
+    /* body.lock {
         overflow: hidden;
-        }
+        } */
     
     .header__burger {
         display: block;
